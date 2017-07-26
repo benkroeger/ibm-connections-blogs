@@ -1,0 +1,44 @@
+{
+  "name": "ibm-connections-blogs",
+  "version": "1.0.0",
+  "description": "An IBM Connections Blogs API Wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "coverage": "nyc npm run test && nyc report --reporter=html",
+    "lint-fix": "eslint . --fix",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "async": "2.5.0",
+    "lodash": "4.17.4",
+    "oniyi-http-client": "1.1.1",
+    "oniyi-http-plugin-credentials": "0.2.0",
+    "oniyi-http-plugin-format-url-template": "1.0.2",
+    "oniyi-logger": "1.0.0",
+    "oniyi-utils-xml": "1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.21.0",
+    "eslint": "3.15.0",
+    "eslint-config-oniyi": "4.4.0",
+    "eslint-plugin-ava": "4.2.1",
+    "nyc": "11.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benkroeger/ibm-connections-blogs.git"
+  },
+  "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benkroeger/ibm-connections-blogs/issues"
+  },
+  "homepage": "https://github.com/benkroeger/ibm-connections-blogs#readme",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ]
+}
