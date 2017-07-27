@@ -6,26 +6,32 @@
 import test from 'ava';
 
 // internal modules
+import { mock, record, persist } from './fixtures/http-mocking';
 import serviceFactory from '../lib';
 
-const service = serviceFactory('https://lc.gish.de/blogs/', {
-  defaults: {
+const { unmocked } = process.env;
+
+const serviceOptions = { defaults: {} };
+if (unmocked) {
+  Object.assign(serviceOptions.defaults, {
     auth: {
       user: process.env.username,
       pass: process.env.password,
     },
-  },
-});
+  });
+}
+const service = serviceFactory('https://lc.gish.de/blogs/', serviceOptions);
 
-test.cb('foo', (t) => {
-  const start = Date.now();
+test.before(() => (unmocked ? record() : mock()));
+test.after(() => unmocked && persist());
+
+test.cb('loads feed of posts for individual blog', (t) => {
   const query = {};
   const options = { authType: 'basic' };
   service.getBlogPosts('c60f3b80-4284-413e-a6b2-6eafc55f2896', query, options, (error, blogPosts) => {
-    const end = Date.now();
-    console.log('parsing took %d', end - start);
     t.ifError(error);
-    t.truthy(blogPosts);
+    t.true(Array.isArray(blogPosts));
+    t.is(blogPosts.length, 10);
     t.end();
   });
 });
