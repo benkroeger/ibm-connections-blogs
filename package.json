@@ -1,6 +1,6 @@
 {
   "name": "ibm-connections-blogs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An IBM Connections Blogs API Wrapper",
   "main": "lib/index.js",
   "scripts": {
