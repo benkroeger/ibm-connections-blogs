@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<entry xml:lang="de" dir="ltr" xmlns="http://www.w3.org/2005/Atom">
+	<id>urn:lsid:ibm.com:blogs:entry-4a8d6ca2-fc47-433b-8061-989e14745b19</id>
+	<snx:communityUuid xmlns:snx="http://www.ibm.com/xmlns/prod/sn">c60f3b80-4284-413e-a6b2-6eafc55f2896</snx:communityUuid>
+	<link href="https://lc.gish.de/blogs/c60f3b80-4284-413e-a6b2-6eafc55f2896/entry/Herzlich_Willkommen" rel="alternate" type="text/html"></link>
+	<link href="https://lc.gish.de:443/blogs/c60f3b80-4284-413e-a6b2-6eafc55f2896/feed/entrycomments/Herzlich_Willkommen/atom" rel="replies" type="application/atom+xml" thr:count="0" xmlns:thr="http://purl.org/syndication/thread/1.0"></link>
+	<app:collection href="https://lc.gish.de:443/blogs/c60f3b80-4284-413e-a6b2-6eafc55f2896/api/recommend/entries/4a8d6ca2-fc47-433b-8061-989e14745b19" xmlns:app="http://www.w3.org/2007/app">
+		<atom:title xmlns:atom="http://www.w3.org/2005/Atom">Empfehlungen</atom:title>
+		<atom:category term="recommend" scheme="http://www.ibm.com/xmlns/prod/sn/collection" xmlns:atom="http://www.w3.org/2005/Atom"></atom:category>
+		<app:categories fixed="yes"></app:categories>
+	</app:collection>
+	<app:collection href="https://lc.gish.de:443/blogs/c60f3b80-4284-413e-a6b2-6eafc55f2896/api/entrycomments/4a8d6ca2-fc47-433b-8061-989e14745b19" xmlns:app="http://www.w3.org/2007/app">
+		<atom:title xmlns:atom="http://www.w3.org/2005/Atom">Kommentareinträge</atom:title>
+		<app:accept>application/atom+xml;type=entry</app:accept>
+		<atom:category term="comments" scheme="http://www.ibm.com/xmlns/prod/sn/collection" xmlns:atom="http://www.w3.org/2005/Atom"></atom:category>
+		<app:categories fixed="yes"></app:categories>
+	</app:collection>
+	<snx:moderation status="approved" xmlns:snx="http://www.ibm.com/xmlns/prod/sn"></snx:moderation>
+	<title type="text">Herzlich Willkommen!</title>
+	<updated>2017-08-01T06:27:23.000Z</updated>
+	<app:edited xmlns:app="http://www.w3.org/2007/app">2017-08-01T06:27:23.000Z</app:edited>
+	<published>2017-08-01T06:27:23.000Z</published>
+	<snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/recommendations" xmlns:snx="http://www.ibm.com/xmlns/prod/sn">3</snx:rank>
+	<snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/comment" xmlns:snx="http://www.ibm.com/xmlns/prod/sn">0</snx:rank>
+	<snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/hit" xmlns:snx="http://www.ibm.com/xmlns/prod/sn">15</snx:rank>
+	<author>
+		<name>Sandra Helmer</name>
+		<email>sandra.helmer@gis-ag.com</email>
+		<snx:userid xmlns:snx="http://www.ibm.com/xmlns/prod/sn">B99CBE39-FD51-4BA7-8DE1-FA9C4327EB96</snx:userid>
+		<snx:userState xmlns:snx="http://www.ibm.com/xmlns/prod/sn">active</snx:userState>
+		<snx:isExternal xmlns:snx="http://www.ibm.com/xmlns/prod/sn">false</snx:isExternal>
+	</author>
+	<contributor>
+		<name>Sandra Helmer</name>
+		<email>sandra.helmer@gis-ag.com</email>
+		<snx:userid xmlns:snx="http://www.ibm.com/xmlns/prod/sn">B99CBE39-FD51-4BA7-8DE1-FA9C4327EB96</snx:userid>
+		<snx:userState xmlns:snx="http://www.ibm.com/xmlns/prod/sn">active</snx:userState>
+		<snx:isExternal xmlns:snx="http://www.ibm.com/xmlns/prod/sn">false</snx:isExternal>
+	</contributor>
+	<category term="mitarbeiter"></category>
+	<category term="neue"></category>
+	<category term="neueintritt"></category>
+	<app:control xmlns:app="http://www.w3.org/2007/app">
+		<app:draft>no</app:draft>
+		<snx:comments enabled="yes" days="0" xmlns:snx="http://www.ibm.com/xmlns/prod/sn"></snx:comments>
+	</app:control>
+	<summary type="html">&lt;p dir="ltr"&gt;Wir begr&amp;uuml;&amp;szlig;en heute 4 neue Kolleginnen/Kollegen im GIS-Team. Einen guten Start w&amp;uuml;nschen wir&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Anabel Bilbao Nellessen
+		&lt;/strong&gt;(Auszubildende / Corporate Services)&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Marvin Jahn...</summary>
+	<content type="html">&lt;p dir="ltr"&gt;Wir begr&amp;uuml;&amp;szlig;en heute 4 neue Kolleginnen/Kollegen im GIS-Team. Einen guten Start w&amp;uuml;nschen wir&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Anabel Bilbao Nellessen
+		&lt;/strong&gt;(Auszubildende / Corporate Services)&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Marvin Jahn &lt;/strong&gt;(Auszubildender / GIS IT)&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Bj&amp;ouml;rn Obornik
+		&lt;/strong&gt;(Java-Entwickler / Solution Delivery 2)&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;&lt;strong&gt;Axel Wurlich &lt;/strong&gt;(Mircrosoft Specialist / Managed Service)&lt;/p&gt;&#xD; &#xD; &lt;p dir="ltr"&gt;Wir freuen uns auf die
+		Zusammenarbeit mit Euch!&lt;/p&gt;&#xD;
+	</content>
+</entry>

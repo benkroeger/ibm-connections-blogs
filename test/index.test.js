@@ -35,3 +35,16 @@ test.cb('loads feed of posts for individual blog', (t) => {
     t.end();
   });
 });
+
+test.cb('loads post by id for individual blog', (t) => {
+  const query = {
+    entryId: '6281f1fe-3e77-4828-8df2-c85dd99597cc',
+    handle: 'c60f3b80-4284-413e-a6b2-6eafc55f2896',
+  };
+  const options = { authType: 'basic' };
+  service.getBlogPost(query, options, (error, blogPost) => {
+    t.ifError(error);
+    t.truthy(blogPost);
+    t.end();
+  });
+});
