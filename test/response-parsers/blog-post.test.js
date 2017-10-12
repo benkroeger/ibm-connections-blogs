@@ -1,4 +1,4 @@
-'use strict';
+
 
 // node core modules
 import fs from 'fs';
