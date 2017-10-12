@@ -10,25 +10,25 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "async": "2.5.0",
-    "lodash": "4.17.4",
-    "oniyi-http-client": "1.1.1",
-    "oniyi-http-plugin-credentials": "0.2.1",
-    "oniyi-http-plugin-format-url-template": "1.0.2",
-    "oniyi-logger": "1.0.0",
-    "oniyi-utils-xml": "1.0.0"
+    "async": "^2.5.0",
+    "lodash": "^4.17.4",
+    "oniyi-http-client": "^1.2.0",
+    "oniyi-http-plugin-credentials": "^0.2.1",
+    "oniyi-http-plugin-format-url-template": "^1.0.2",
+    "oniyi-logger": "^1.0.0",
+    "oniyi-utils-xml": "^1.1.0"
   },
   "devDependencies": {
-    "ava": "0.21.0",
-    "eslint": "3.15.0",
-    "eslint-config-oniyi": "4.4.0",
-    "eslint-plugin-ava": "4.2.1",
-    "nock": "9.0.14",
-    "nyc": "11.0.3"
+    "ava": "^0.22.0",
+    "eslint": "^4.8.0",
+    "eslint-config-oniyi": "^5.0.2",
+    "eslint-plugin-ava": "^4.2.2",
+    "nock": "^9.0.22",
+    "nyc": "^11.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benkroeger/ibm-connections-blogs.git"
+    "url": "git+ssh://git@github.com/benkroeger/ibm-connections-blogs.git"
   },
   "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
   "license": "MIT",
@@ -40,6 +40,6 @@
     "test": "test"
   },
   "files": [
-    "lib"
+    "lib/"
   ]
 }
