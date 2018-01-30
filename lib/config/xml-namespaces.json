@@ -2,7 +2,7 @@
   "atom": "http://www.w3.org/2005/Atom",
   "snx": "http://www.ibm.com/xmlns/prod/sn",
   "app": "http://www.w3.org/2007/app",
-  "os": "http://a9.com/-/spec/opensearch/1.1/",
+  "opensearch": "http://a9.com/-/spec/opensearch/1.1/",
   "ibmsc": "http://www.ibm.com/search/content/2010",
   "thr": "http://purl.org/syndication/thread/1.0",
   "fh": "http://purl.org/syndication/history/1.0",
