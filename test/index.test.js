@@ -28,8 +28,9 @@ test.after(() => unmocked && persist());
 test.cb('loads feed of posts for individual blog', (t) => {
   const query = { handle: 'c60f3b80-4284-413e-a6b2-6eafc55f2896' };
   const options = { authType: 'basic' };
-  service.getBlogPosts(query, options, (error, blogPosts) => {
+  service.getBlogPosts(query, options, (error, { totalResults, entries: blogPosts }) => {
     t.ifError(error);
+    t.is(totalResults, 78);
     t.true(Array.isArray(blogPosts));
     t.is(blogPosts.length, 10);
     t.end();

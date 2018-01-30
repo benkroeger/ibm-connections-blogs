@@ -14,8 +14,9 @@ import parseBlogPosts from '../../lib/response-parsers/blog-posts';
 const xmlString = fs.readFileSync(path.resolve(__dirname, './fixtures/blog-posts.xml'), { encoding: 'utf8' });
 
 test('parses feed of blog posts to array of post objects', (t) => {
-  const blogPosts = parseBlogPosts(xmlString);
+  const { totalResults, entries: blogPosts } = parseBlogPosts(xmlString);
 
+  t.is(totalResults, 75);
   t.true(Array.isArray(blogPosts));
   t.is(blogPosts.length, 30);
 
