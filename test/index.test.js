@@ -67,5 +67,5 @@ test('create blog post in blog with given handle', async (t) => {
     },
   }, options);
 
-  t.truthy(createdPost, 'blog post edit url should be returned as a result of the create blog post request');
+  t.truthy(createdPost, 'created blog post should be returned');
 });
